@@ -1,0 +1,2202 @@
+[
+  {
+    "id": 1,
+    "question": "Which quantity has both magnitude and direction?",
+    "options": [
+      "Speed",
+      "Distance",
+      "Velocity",
+      "Energy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 2,
+    "question": "What is the SI unit of force?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "What is the SI unit of power?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Ampere"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "Sound cannot travel through:",
+    "options": [
+      "Solids",
+      "Liquids",
+      "Gases",
+      "Vacuum"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "A higher frequency sound wave has a higher:",
+    "options": [
+      "Loudness",
+      "Pitch",
+      "Speed",
+      "Amplitude"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "The bending of light as it passes between media is called:",
+    "options": [
+      "Reflection",
+      "Diffraction",
+      "Refraction",
+      "Polarization"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "What is electrical resistance measured in?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Coulomb"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 8,
+    "question": "Electric current is measured in:",
+    "options": [
+      "Ampere",
+      "Volt",
+      "Watt",
+      "Ohm"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "What particle has no electric charge?",
+    "options": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Positron"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 10,
+    "question": "What particle carries a negative electric charge?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Alpha particle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "What particle carries a positive electric charge?",
+    "options": [
+      "Neutron",
+      "Electron",
+      "Proton",
+      "Photon"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 12,
+    "question": "Pressure is defined as:",
+    "options": [
+      "Force × Area",
+      "Force / Area",
+      "Mass / Volume",
+      "Work / Time"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "The upward buoyant force on an object in water was discovered by:",
+    "options": [
+      "Newton",
+      "Archimedes",
+      "Einstein",
+      "Galileo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "Which type of lens is thinner in the middle and thicker at the edges?",
+    "options": [
+      "Convex",
+      "Concave",
+      "Bifocal",
+      "Cylindrical"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 15,
+    "question": "Which lens is used as a simple magnifying glass?",
+    "options": [
+      "Concave lens",
+      "Convex lens",
+      "Plane glass",
+      "Concave mirror"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 16,
+    "question": "The energy possessed by a body due to its motion is called:",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Thermal energy",
+      "Chemical energy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 17,
+    "question": "The energy stored in a compressed spring is:",
+    "options": [
+      "Kinetic energy",
+      "Elastic potential energy",
+      "Thermal energy",
+      "Chemical energy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 18,
+    "question": "What is the approximate speed of light in vacuum?",
+    "options": [
+      "3,000 km/s",
+      "30,000 km/s",
+      "300,000 km/s",
+      "3,000,000 km/s"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 19,
+    "question": "What law states: For every action, there is an equal and opposite reaction?",
+    "options": [
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Newton's Third Law",
+      "Law of Gravitation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 20,
+    "question": "Which electromagnetic radiation has the highest frequency?",
+    "options": [
+      "Radio waves",
+      "Microwaves",
+      "X-rays",
+      "Gamma rays"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 21,
+    "question": "Which electromagnetic radiation has the longest wavelength?",
+    "options": [
+      "Radio waves",
+      "Infrared",
+      "Ultraviolet",
+      "Gamma rays"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "Solar cells convert light energy directly into:",
+    "options": [
+      "Heat energy",
+      "Electrical energy",
+      "Chemical energy",
+      "Nuclear energy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 23,
+    "question": "What is the SI unit of work and energy?",
+    "options": [
+      "Newton",
+      "Watt",
+      "Joule",
+      "Pascal"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 24,
+    "question": "What is the SI unit of frequency?",
+    "options": [
+      "Second",
+      "Hertz",
+      "Meter",
+      "Decibel"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 25,
+    "question": "The acceleration due to gravity on Earth is approximately:",
+    "options": [
+      "4.9 m/s²",
+      "9.8 m/s²",
+      "19.6 m/s²",
+      "32 m/s²"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 26,
+    "question": "Which mirror produces a wider field of view, used in vehicle side mirrors?",
+    "options": [
+      "Plane mirror",
+      "Concave mirror",
+      "Convex mirror",
+      "Parabolic mirror"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 27,
+    "question": "Which device converts electrical energy into mechanical energy?",
+    "options": [
+      "Electric motor",
+      "Generator",
+      "Transformer",
+      "Battery"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "Which device converts mechanical energy into electrical energy?",
+    "options": [
+      "Electric motor",
+      "Electric generator",
+      "Voltmeter",
+      "Ammeter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 29,
+    "question": "A device used to step up or step down AC voltage is a:",
+    "options": [
+      "Resistor",
+      "Transformer",
+      "Capacitor",
+      "Diode"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 30,
+    "question": "Which color of visible light has the shortest wavelength?",
+    "options": [
+      "Red",
+      "Green",
+      "Violet",
+      "Yellow"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 31,
+    "question": "Which color of visible light has the longest wavelength?",
+    "options": [
+      "Red",
+      "Blue",
+      "Violet",
+      "Green"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "Splitting of a heavy atomic nucleus into lighter nuclei is called:",
+    "options": [
+      "Nuclear fusion",
+      "Nuclear fission",
+      "Ionization",
+      "Combustion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 33,
+    "question": "Combining two light nuclei to form a heavier nucleus is called:",
+    "options": [
+      "Nuclear fission",
+      "Nuclear fusion",
+      "Radioactivity",
+      "Sublimation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 34,
+    "question": "The primary source of the Sun's energy is:",
+    "options": [
+      "Nuclear fission",
+      "Nuclear fusion",
+      "Chemical combustion",
+      "Gravitational decay"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 35,
+    "question": "What type of lens is used to correct nearsightedness (myopia)?",
+    "options": [
+      "Convex lens",
+      "Concave lens",
+      "Cylindrical lens",
+      "Plane glass"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 36,
+    "question": "What type of lens is used to correct farsightedness (hyperopia)?",
+    "options": [
+      "Concave lens",
+      "Convex lens",
+      "Bifocal lens",
+      "Flat mirror"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 37,
+    "question": "The change in pitch of a siren as an ambulance speeds past is the:",
+    "options": [
+      "Photoelectric effect",
+      "Doppler effect",
+      "Compton effect",
+      "Tyndall effect"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 38,
+    "question": "In a series circuit, what quantity remains the same across all components?",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance",
+      "Power"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 39,
+    "question": "In a parallel circuit, what quantity remains the same across all branches?",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance",
+      "Power"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "An object floats on water if its density is:",
+    "options": [
+      "Greater than water",
+      "Less than water",
+      "Equal to iron",
+      "Zero"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 41,
+    "question": "What is the chemical symbol for Iron?",
+    "options": [
+      "Ir",
+      "Fe",
+      "In",
+      "Au"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 42,
+    "question": "What is the chemical symbol for Gold?",
+    "options": [
+      "Ag",
+      "Au",
+      "Gd",
+      "Pt"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 43,
+    "question": "What is the chemical symbol for Silver?",
+    "options": [
+      "Si",
+      "Ag",
+      "Au",
+      "Sr"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 44,
+    "question": "What is the chemical symbol for Sodium?",
+    "options": [
+      "So",
+      "Sd",
+      "Na",
+      "K"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 45,
+    "question": "What is the chemical symbol for Potassium?",
+    "options": [
+      "P",
+      "Po",
+      "Pt",
+      "K"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 46,
+    "question": "What is the chemical formula for common table salt?",
+    "options": [
+      "NaCl",
+      "KCl",
+      "CaCl2",
+      "Na2SO4"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 47,
+    "question": "What is the chemical formula for water?",
+    "options": [
+      "H2O",
+      "CO2",
+      "H2O2",
+      "HO2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 48,
+    "question": "What is the chemical formula for Carbon Dioxide?",
+    "options": [
+      "CO",
+      "CO2",
+      "C2O",
+      "CH4"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 49,
+    "question": "Which gas is released during photosynthesis?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Methane"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 50,
+    "question": "Which gas is primarily responsible for the fizz in soda drinks?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 51,
+    "question": "What is the pH of pure neutral water at 25°C?",
+    "options": [
+      "0",
+      "5",
+      "7",
+      "14"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 52,
+    "question": "A liquid with a pH of 2 is considered:",
+    "options": [
+      "Strongly acidic",
+      "Neutral",
+      "Strongly basic",
+      "Weakly basic"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 53,
+    "question": "A liquid with a pH of 13 is considered:",
+    "options": [
+      "Acidic",
+      "Neutral",
+      "Basic",
+      "Pure water"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 54,
+    "question": "Which acid is commonly found in vinegar?",
+    "options": [
+      "Citric acid",
+      "Acetic acid",
+      "Sulfuric acid",
+      "Nitric acid"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 55,
+    "question": "Which acid is present in lemons and oranges?",
+    "options": [
+      "Citric acid",
+      "Hydrochloric acid",
+      "Acetic acid",
+      "Formic acid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 56,
+    "question": "Which acid is produced in the human stomach to help digest food?",
+    "options": [
+      "Sulfuric acid",
+      "Hydrochloric acid",
+      "Nitric acid",
+      "Acetic acid"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 57,
+    "question": "What is the hardest naturally occurring mineral on Earth?",
+    "options": [
+      "Quartz",
+      "Topaz",
+      "Diamond",
+      "Corundum"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 58,
+    "question": "Diamond and graphite are allotropes of which element?",
+    "options": [
+      "Silicon",
+      "Carbon",
+      "Sulfur",
+      "Phosphorus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 59,
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 60,
+    "question": "What is the percentage of nitrogen in Earth's atmosphere approximately?",
+    "options": [
+      "21%",
+      "50%",
+      "78%",
+      "95%"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 61,
+    "question": "What is the percentage of oxygen in Earth's atmosphere approximately?",
+    "options": [
+      "10%",
+      "21%",
+      "50%",
+      "78%"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 62,
+    "question": "Which metal is liquid at room temperature?",
+    "options": [
+      "Iron",
+      "Lead",
+      "Mercury",
+      "Copper"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 63,
+    "question": "Which non-metal is liquid at room temperature?",
+    "options": [
+      "Chlorine",
+      "Bromine",
+      "Iodine",
+      "Sulfur"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 64,
+    "question": "Rusting of iron requires both:",
+    "options": [
+      "Oxygen and water",
+      "Nitrogen and heat",
+      "Carbon dioxide and oil",
+      "Hydrogen and sunlight"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 65,
+    "question": "Which gas burns with a characteristic 'pop' sound?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Carbon dioxide",
+      "Helium"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 66,
+    "question": "Which gas extinguishes a burning splint and turns limewater milky?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 67,
+    "question": "Which element has the atomic number 1?",
+    "options": [
+      "Helium",
+      "Hydrogen",
+      "Carbon",
+      "Lithium"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 68,
+    "question": "Which element has the atomic number 6?",
+    "options": [
+      "Boron",
+      "Carbon",
+      "Nitrogen",
+      "Oxygen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 69,
+    "question": "Which element has the atomic number 8?",
+    "options": [
+      "Carbon",
+      "Nitrogen",
+      "Oxygen",
+      "Fluorine"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 70,
+    "question": "What is the center of an atom called?",
+    "options": [
+      "Proton",
+      "Nucleus",
+      "Electron cloud",
+      "Orbital"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 71,
+    "question": "What subatomic particles are located in the nucleus?",
+    "options": [
+      "Electrons and protons",
+      "Protons and neutrons",
+      "Electrons and neutrons",
+      "Photons only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 72,
+    "question": "Which element has the highest electronegativity on the periodic table?",
+    "options": [
+      "Oxygen",
+      "Chlorine",
+      "Fluorine",
+      "Nitrogen"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 73,
+    "question": "Which group in the periodic table contains the noble (inert) gases?",
+    "options": [
+      "Group 1",
+      "Group 2",
+      "Group 17",
+      "Group 18"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 74,
+    "question": "Which gas is used in party balloons because it is lighter than air and non-flammable?",
+    "options": [
+      "Hydrogen",
+      "Helium",
+      "Nitrogen",
+      "Argon"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 75,
+    "question": "The process of a solid turning directly into a gas is called:",
+    "options": [
+      "Evaporation",
+      "Sublimation",
+      "Condensation",
+      "Melting"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 76,
+    "question": "Dry ice is the solid form of which gas?",
+    "options": [
+      "Water vapor",
+      "Carbon dioxide",
+      "Methane",
+      "Nitrogen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 77,
+    "question": "What happens to the rate of a chemical reaction when temperature increases?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It stops",
+      "It stays identical"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 78,
+    "question": "A substance that speeds up a chemical reaction without being consumed is a:",
+    "options": [
+      "Reactant",
+      "Solvent",
+      "Catalyst",
+      "Product"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 79,
+    "question": "What is the common name for calcium carbonate found in chalk and marble?",
+    "options": [
+      "Baking soda",
+      "Limestone",
+      "Quicklime",
+      "Gypsum"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 80,
+    "question": "What is the chemical formula for methane (natural gas)?",
+    "options": [
+      "CH4",
+      "C2H6",
+      "CO2",
+      "NH3"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 81,
+    "question": "What is known as the powerhouse of the cell?",
+    "options": [
+      "Nucleus",
+      "Mitochondrion",
+      "Ribosome",
+      "Chloroplast"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 82,
+    "question": "Which green pigment gives leaves their color and absorbs sunlight?",
+    "options": [
+      "Carotene",
+      "Chlorophyll",
+      "Hemoglobin",
+      "Melanin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 83,
+    "question": "What metal atom is present at the center of a chlorophyll molecule?",
+    "options": [
+      "Iron",
+      "Magnesium",
+      "Calcium",
+      "Zinc"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 84,
+    "question": "What metal atom is present at the center of hemoglobin?",
+    "options": [
+      "Copper",
+      "Magnesium",
+      "Iron",
+      "Cobalt"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 85,
+    "question": "Which organelle carries out photosynthesis in plant cells?",
+    "options": [
+      "Mitochondria",
+      "Chloroplast",
+      "Vacuole",
+      "Ribosome"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 86,
+    "question": "Which cellular structure contains the genetic material (DNA)?",
+    "options": [
+      "Cell wall",
+      "Nucleus",
+      "Golgi body",
+      "Ribosome"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 87,
+    "question": "Ribosomes are primarily responsible for synthesizing:",
+    "options": [
+      "Lipids",
+      "Carbohydrates",
+      "Proteins",
+      "Nucleic acids"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 88,
+    "question": "How many bones are there in the adult human skeleton?",
+    "options": [
+      "186",
+      "206",
+      "256",
+      "300"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 89,
+    "question": "What is the largest organ of the human body?",
+    "options": [
+      "Liver",
+      "Brain",
+      "Skin",
+      "Lungs"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 90,
+    "question": "Which human organ pumps blood throughout the circulatory system?",
+    "options": [
+      "Lungs",
+      "Heart",
+      "Kidney",
+      "Liver"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 91,
+    "question": "How many chambers does the human heart have?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 92,
+    "question": "Which blood cells are responsible for carrying oxygen?",
+    "options": [
+      "White blood cells",
+      "Red blood cells",
+      "Platelets",
+      "Plasma"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 93,
+    "question": "Which blood component plays the key role in blood clotting?",
+    "options": [
+      "Platelets",
+      "Red blood cells",
+      "White blood cells",
+      "Hemoglobin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 94,
+    "question": "Which cells defend the human body against infections and diseases?",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets",
+      "Neurons"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 95,
+    "question": "Which human organ filters blood and produces urine?",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Pancreas",
+      "Gallbladder"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 96,
+    "question": "What is the functional microscopic filtering unit of the kidney?",
+    "options": [
+      "Neuron",
+      "Nephron",
+      "Alveolus",
+      "Villus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 97,
+    "question": "Tiny air sacs in the lungs where gas exchange takes place are called:",
+    "options": [
+      "Bronchioles",
+      "Alveoli",
+      "Trachea",
+      "Cilia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 98,
+    "question": "Which organ produces the hormone insulin?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Thyroid",
+      "Adrenal gland"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 99,
+    "question": "Insulin helps regulate the blood levels of:",
+    "options": [
+      "Calcium",
+      "Glucose (sugar)",
+      "Sodium",
+      "Cholesterol"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 100,
+    "question": "Which part of the human brain controls balance and coordination?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Brainstem",
+      "Thalamus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 101,
+    "question": "How many chromosomes do normal human body cells contain?",
+    "options": [
+      "23",
+      "46",
+      "48",
+      "92"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 102,
+    "question": "How many pairs of chromosomes are found in human somatic cells?",
+    "options": [
+      "12 pairs",
+      "23 pairs",
+      "46 pairs",
+      "92 pairs"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 103,
+    "question": "Which nitrogenous base is present in DNA but absent in RNA?",
+    "options": [
+      "Adenine",
+      "Uracil",
+      "Thymine",
+      "Guanine"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 104,
+    "question": "Which nitrogenous base is present in RNA but absent in DNA?",
+    "options": [
+      "Thymine",
+      "Uracil",
+      "Cytosine",
+      "Adenine"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 105,
+    "question": "In DNA, adenine always pairs with:",
+    "options": [
+      "Cytosine",
+      "Guanine",
+      "Thymine",
+      "Uracil"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 106,
+    "question": "In DNA, guanine always pairs with:",
+    "options": [
+      "Adenine",
+      "Cytosine",
+      "Thymine",
+      "Uracil"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 107,
+    "question": "Which type of cell division produces two identical daughter cells for growth?",
+    "options": [
+      "Mitosis",
+      "Meiosis",
+      "Fertilization",
+      "Binary fission"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 108,
+    "question": "Which type of cell division produces gametes (sperm and egg cells)?",
+    "options": [
+      "Mitosis",
+      "Meiosis",
+      "Budding",
+      "Regeneration"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 109,
+    "question": "Who is known as the father of modern genetics?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Alexander Fleming"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 110,
+    "question": "The theory of evolution by natural selection was proposed by:",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Robert Hooke",
+      "Carl Linnaeus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 111,
+    "question": "Who discovered penicillin, the first widely used antibiotic?",
+    "options": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Edward Jenner",
+      "Robert Koch"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 112,
+    "question": "Which microorganism is commonly used in bread making and brewing?",
+    "options": [
+      "Bacteria",
+      "Yeast (fungus)",
+      "Virus",
+      "Amoeba"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 113,
+    "question": "Antibiotics are primarily effective against:",
+    "options": [
+      "Viruses",
+      "Bacteria",
+      "Fungi only",
+      "All parasites"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 114,
+    "question": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+    "options": [
+      "Pulmonary artery",
+      "Pulmonary vein",
+      "Vena cava",
+      "Aorta"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 115,
+    "question": "What is the largest artery in the human body?",
+    "options": [
+      "Carotid artery",
+      "Pulmonary artery",
+      "Aorta",
+      "Femoral artery"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 116,
+    "question": "What gas do humans inhale for cellular respiration?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 117,
+    "question": "What main gas do humans exhale as a waste product of respiration?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Methane"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 118,
+    "question": "Plants absorb water and minerals from soil through their:",
+    "options": [
+      "Leaves",
+      "Flowers",
+      "Roots",
+      "Stems"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 119,
+    "question": "Tiny pores on the underside of plant leaves used for gas exchange are:",
+    "options": [
+      "Stomata",
+      "Chloroplasts",
+      "Xylem",
+      "Phloem"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 120,
+    "question": "Plant tissue that transports water upwards from roots is called:",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Cortex",
+      "Epidermis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 121,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Mercury"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 122,
+    "question": "Which planet is the closest to the Sun?",
+    "options": [
+      "Venus",
+      "Mercury",
+      "Earth",
+      "Mars"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 123,
+    "question": "What is the largest planet in our solar system?",
+    "options": [
+      "Saturn",
+      "Jupiter",
+      "Neptune",
+      "Uranus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 124,
+    "question": "Which planet is famous for its prominent, bright rings?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 125,
+    "question": "What is the hottest planet in our solar system?",
+    "options": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 126,
+    "question": "How long does it take for Earth to complete one orbit around the Sun?",
+    "options": [
+      "24 hours",
+      "30 days",
+      "365.25 days",
+      "100 days"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 127,
+    "question": "How long does it take for Earth to complete one rotation on its axis?",
+    "options": [
+      "12 hours",
+      "24 hours",
+      "365 days",
+      "30 days"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 128,
+    "question": "Earth's natural satellite is:",
+    "options": [
+      "Titan",
+      "The Moon",
+      "Phobos",
+      "Europa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 129,
+    "question": "The nearest star to Earth after the Sun is:",
+    "options": [
+      "Sirius",
+      "Proxima Centauri",
+      "Betelgeuse",
+      "Polaris"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 130,
+    "question": "What galaxy does our solar system belong to?",
+    "options": [
+      "Andromeda",
+      "Milky Way",
+      "Whirlpool",
+      "Sombrero"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 131,
+    "question": "What is the freezing point of pure water at standard atmospheric pressure?",
+    "options": [
+      "0°C",
+      "32°C",
+      "-4°C",
+      "100°C"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 132,
+    "question": "What is the boiling point of pure water at standard atmospheric pressure?",
+    "options": [
+      "50°C",
+      "90°C",
+      "100°C",
+      "212°C"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 133,
+    "question": "At what temperature are Celsius and Fahrenheit scales equal?",
+    "options": [
+      "0°",
+      "-40°",
+      "32°",
+      "100°"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 134,
+    "question": "What is absolute zero in Celsius approximately?",
+    "options": [
+      "-100°C",
+      "-273.15°C",
+      "-373°C",
+      "0°C"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 135,
+    "question": "The layer of the atmosphere closest to Earth where weather occurs is the:",
+    "options": [
+      "Stratosphere",
+      "Troposphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 136,
+    "question": "The ozone layer protects life on Earth from harmful:",
+    "options": [
+      "Infrared rays",
+      "Ultraviolet (UV) radiation",
+      "Radio waves",
+      "Microwaves"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 137,
+    "question": "What is the chemical formula for ozone?",
+    "options": [
+      "O",
+      "O2",
+      "O3",
+      "O4"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 138,
+    "question": "Which instrument is used to measure atmospheric pressure?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 139,
+    "question": "Which instrument is used to measure wind speed?",
+    "options": [
+      "Barometer",
+      "Anemometer",
+      "Seismograph",
+      "Galvanometer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 140,
+    "question": "Earthquakes are measured using which device?",
+    "options": [
+      "Barometer",
+      "Seismograph",
+      "Hydrometer",
+      "Spectrometer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 141,
+    "question": "Earthquake magnitude is commonly recorded on which scale?",
+    "options": [
+      "Kelvin scale",
+      "Richter scale",
+      "Beaufort scale",
+      "Mohs scale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 142,
+    "question": "The scale used to measure mineral hardness is the:",
+    "options": [
+      "Richter scale",
+      "Mohs scale",
+      "Celsius scale",
+      "Kelvin scale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 143,
+    "question": "Molten rock beneath the Earth's surface is called:",
+    "options": [
+      "Lava",
+      "Magma",
+      "Basalt",
+      "Granite"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 144,
+    "question": "Molten rock that breaks through the Earth's surface is called:",
+    "options": [
+      "Magma",
+      "Lava",
+      "Sediment",
+      "Obsidian"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 145,
+    "question": "What is the primary gas found on the surface of the Sun?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen",
+      "Carbon"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 146,
+    "question": "Which celestial event occurs when the Moon passes directly between Earth and Sun?",
+    "options": [
+      "Lunar eclipse",
+      "Solar eclipse",
+      "Solstice",
+      "Equinox"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 147,
+    "question": "Which celestial event occurs when Earth is directly between the Sun and Moon?",
+    "options": [
+      "Solar eclipse",
+      "Lunar eclipse",
+      "Aurora",
+      "Supernova"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 148,
+    "question": "Tides in the oceans are caused primarily by the gravitational pull of the:",
+    "options": [
+      "Sun",
+      "Moon",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 149,
+    "question": "What is the chemical symbol for Lead?",
+    "options": [
+      "Le",
+      "Pb",
+      "Ld",
+      "Pd"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 150,
+    "question": "What is the chemical symbol for Copper?",
+    "options": [
+      "Co",
+      "Cp",
+      "Cu",
+      "Cr"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 151,
+    "question": "What is the chemical symbol for Helium?",
+    "options": [
+      "H",
+      "He",
+      "Hl",
+      "Hm"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 152,
+    "question": "What is the chemical symbol for Nitrogen?",
+    "options": [
+      "Ni",
+      "Na",
+      "N",
+      "Ne"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 153,
+    "question": "What is the chemical symbol for Oxygen?",
+    "options": [
+      "Ox",
+      "O",
+      "Og",
+      "Om"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 154,
+    "question": "What is the chemical symbol for Carbon?",
+    "options": [
+      "Ca",
+      "Cr",
+      "C",
+      "Co"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 155,
+    "question": "What is the chemical symbol for Calcium?",
+    "options": [
+      "C",
+      "Cl",
+      "Ca",
+      "Cm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 156,
+    "question": "What is the chemical symbol for Chlorine?",
+    "options": [
+      "Ch",
+      "Cl",
+      "Cr",
+      "C"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 157,
+    "question": "What is the chemical symbol for Zinc?",
+    "options": [
+      "Zn",
+      "Zc",
+      "Zi",
+      "Z"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 158,
+    "question": "What is the chemical symbol for Tin?",
+    "options": [
+      "Ti",
+      "Tn",
+      "Sn",
+      "Pb"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 159,
+    "question": "What is the chemical symbol for Aluminum?",
+    "options": [
+      "Al",
+      "Am",
+      "Au",
+      "Ag"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 160,
+    "question": "What is the chemical symbol for Mercury?",
+    "options": [
+      "Me",
+      "Mc",
+      "Hg",
+      "Hy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 161,
+    "question": "What is the main component of natural biogas?",
+    "options": [
+      "Methane",
+      "Propane",
+      "Butane",
+      "Ethane"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 162,
+    "question": "LPG cylinders used for cooking primarily contain:",
+    "options": [
+      "Methane and ethane",
+      "Propane and butane",
+      "Hydrogen and helium",
+      "Carbon monoxide"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 163,
+    "question": "Which metal is the best conductor of electricity?",
+    "options": [
+      "Copper",
+      "Gold",
+      "Silver",
+      "Aluminum"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 164,
+    "question": "Which metal is most commonly used in household electrical wiring?",
+    "options": [
+      "Silver",
+      "Copper",
+      "Iron",
+      "Lead"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 165,
+    "question": "What gas gives the yellow-green color in swimming pool disinfectants?",
+    "options": [
+      "Fluorine",
+      "Chlorine",
+      "Bromine",
+      "Iodine"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 166,
+    "question": "Which vitamin is synthesized in the human skin upon exposure to sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 167,
+    "question": "Deficiency of Vitamin C leads to which disease?",
+    "options": [
+      "Rickets",
+      "Scurvy",
+      "Beriberi",
+      "Night blindness"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 168,
+    "question": "Deficiency of Vitamin D causes which condition in children?",
+    "options": [
+      "Scurvy",
+      "Rickets",
+      "Anemia",
+      "Goiter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 169,
+    "question": "Deficiency of Vitamin A causes which problem?",
+    "options": [
+      "Night blindness",
+      "Scurvy",
+      "Rickets",
+      "Bleeding gums"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 170,
+    "question": "Deficiency of iron in the human diet causes:",
+    "options": [
+      "Goiter",
+      "Anemia",
+      "Diabetes",
+      "Osteoporosis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 171,
+    "question": "Deficiency of iodine in the human diet often causes swelling of the thyroid called:",
+    "options": [
+      "Scurvy",
+      "Goiter",
+      "Rickets",
+      "Anemia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 172,
+    "question": "What is the normal resting human body temperature in Celsius?",
+    "options": [
+      "35°C",
+      "37°C",
+      "39°C",
+      "42°C"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 173,
+    "question": "What is the normal resting human body temperature in Fahrenheit?",
+    "options": [
+      "96.4°F",
+      "98.6°F",
+      "100.4°F",
+      "102°F"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 174,
+    "question": "Which blood group is known as the universal donor for red blood cells?",
+    "options": [
+      "A positive",
+      "B positive",
+      "AB positive",
+      "O negative"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 175,
+    "question": "Which blood group is known as the universal recipient?",
+    "options": [
+      "AB positive",
+      "O negative",
+      "A negative",
+      "B positive"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 176,
+    "question": "What is the smallest unit of living matter capable of independent life?",
+    "options": [
+      "Atom",
+      "Cell",
+      "Tissue",
+      "Organ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 177,
+    "question": "Which part of a plant cell provides rigidity and structure, absent in animal cells?",
+    "options": [
+      "Cell membrane",
+      "Cell wall",
+      "Mitochondria",
+      "Nucleus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 178,
+    "question": "Fungi obtain nutrients primarily by:",
+    "options": [
+      "Photosynthesis",
+      "Absorbing decaying matter",
+      "Hunting prey",
+      "Chemosynthesis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 179,
+    "question": "What is the main structural component of plant cell walls?",
+    "options": [
+      "Starch",
+      "Cellulose",
+      "Glycogen",
+      "Keratin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 180,
+    "question": "What protein makes up human hair and nails?",
+    "options": [
+      "Collagen",
+      "Keratin",
+      "Hemoglobin",
+      "Myoglobin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 181,
+    "question": "What is the fastest land animal in the world?",
+    "options": [
+      "Lion",
+      "Cheetah",
+      "Gazelle",
+      "Horse"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 182,
+    "question": "What is the largest living mammal on Earth?",
+    "options": [
+      "African elephant",
+      "Blue whale",
+      "Giraffe",
+      "Hippopotamus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 183,
+    "question": "Animals that eat only plants are classified as:",
+    "options": [
+      "Carnivores",
+      "Herbivores",
+      "Omnivores",
+      "Decomposers"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 184,
+    "question": "Animals that eat only other animals are classified as:",
+    "options": [
+      "Herbivores",
+      "Carnivores",
+      "Producers",
+      "Autotrophs"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 185,
+    "question": "Animals that eat both plants and meat are classified as:",
+    "options": [
+      "Carnivores",
+      "Omnivores",
+      "Herbivores",
+      "Parasites"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 186,
+    "question": "What do bees collect from flowers to make honey?",
+    "options": [
+      "Pollen and nectar",
+      "Sap only",
+      "Water only",
+      "Chlorophyll"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 187,
+    "question": "Which sense organ in humans contains the cochlea?",
+    "options": [
+      "Eye",
+      "Ear",
+      "Nose",
+      "Tongue"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 188,
+    "question": "Which part of the human eye controls the amount of light entering?",
+    "options": [
+      "Retina",
+      "Iris and Pupil",
+      "Cornea",
+      "Optic nerve"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 189,
+    "question": "The light-sensitive tissue at the back of the human eye is called the:",
+    "options": [
+      "Cornea",
+      "Lens",
+      "Retina",
+      "Sclera"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 190,
+    "question": "A compass needle points toward magnetic:",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 191,
+    "question": "Like magnetic poles (e.g. North and North):",
+    "options": [
+      "Attract each other",
+      "Repel each other",
+      "Neutralize each other",
+      "Have no force"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 192,
+    "question": "Opposite magnetic poles (North and South):",
+    "options": [
+      "Attract each other",
+      "Repel each other",
+      "Create electric charge",
+      "Do nothing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 193,
+    "question": "Lightning is a massive natural discharge of:",
+    "options": [
+      "Static electricity",
+      "Nuclear radiation",
+      "Magnetic flux",
+      "Thermal sound"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 194,
+    "question": "Why do we see lightning before we hear thunder?",
+    "options": [
+      "Light travels much faster than sound",
+      "Thunder occurs later",
+      "Sound travels faster than light",
+      "The eye is faster than the ear"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 195,
+    "question": "What is the speed of sound in air at room temperature approximately?",
+    "options": [
+      "343 m/s",
+      "1,500 m/s",
+      "300,000 km/s",
+      "100 km/h"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 196,
+    "question": "Which fundamental force keeps planets orbiting around the Sun?",
+    "options": [
+      "Electromagnetic force",
+      "Gravitational force",
+      "Strong nuclear force",
+      "Weak nuclear force"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 197,
+    "question": "What is the primary chemical element in charcoal?",
+    "options": [
+      "Sulfur",
+      "Carbon",
+      "Silicon",
+      "Iron"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 198,
+    "question": "Which simple machine consists of a wheel with a groove for a rope?",
+    "options": [
+      "Lever",
+      "Pulley",
+      "Inclined plane",
+      "Screw"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 199,
+    "question": "What is the main gas produced when limestone is heated strongly?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Hydrogen",
+      "Sulfur dioxide"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 200,
+    "question": "Which device is used to measure electric voltage?",
+    "options": [
+      "Ammeter",
+      "Voltmeter",
+      "Ohmmeter",
+      "Barometer"
+    ],
+    "correctIndex": 1
+  }
+]
