@@ -28,11 +28,16 @@ export default function Leaderboard({ onBack }) {
 
   useEffect(() => {
     loadLeaderboard();
+    const handleUpdate = () => loadLeaderboard(true);
+    window.addEventListener('leaderboard-updated', handleUpdate);
     // Auto-refresh every 8 seconds for live audience
     const interval = setInterval(() => {
       loadLeaderboard(true);
     }, 8000);
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener('leaderboard-updated', handleUpdate);
+    };
   }, []);
 
   // Top 5 winners for closed event, or Top 20 for live leaderboard
