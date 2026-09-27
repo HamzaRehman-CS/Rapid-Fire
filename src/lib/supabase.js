@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://suqbfqjbdncwneuvoppr.supabase.co';
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1cWJmcWpiZG5jd25ldXZvcHByIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA0ODE1NjUsImV4cCI6MjEwNjA1NzU2NX0.pp4sE4rRTGz8cchPmKvsOYAErEtfv0SzYGlnNP58Xz8';
+const supabaseUrl = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_SUPABASE_URL) || 'https://suqbfqjbdncwneuvoppr.supabase.co';
+const supabaseAnonKey = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_SUPABASE_ANON_KEY) || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1cWJmcWpiZG5jd25ldXZvcHByIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA0ODE1NjUsImV4cCI6MjEwNjA1NzU2NX0.pp4sE4rRTGz8cchPmKvsOYAErEtfv0SzYGlnNP58Xz8';
 
 export const supabase = (supabaseUrl && supabaseAnonKey)
   ? createClient(supabaseUrl, supabaseAnonKey)
@@ -76,32 +76,45 @@ export async function fetchLeaderboardEntries() {
   // Try Supabase first
   if (supabase) {
     try {
-      // Check if event has been marked as closed by coordinator
-      const { data: statusData } = await supabase
-        .from('rapid_fire_attempts')
-        .select('university_id')
-        .eq('name', '__EVENT_STATUS__')
-        .order('created_at', { ascending: false })
-        .limit(1);
-
-      if (statusData && statusData.length > 0 && statusData[0].university_id === 'CLOSED') {
-        isEventClosed = true;
-      }
-
-      // Fetch participants (excluding any system marker rows)
+      // 1. Check all rows (ordered by score, then time)
       const { data, error } = await supabase
         .from('rapid_fire_attempts')
         .select('id, name, university_id, score, correct, wrong, attempted, created_at')
-        .not('name', 'like', '__EVENT%')
         .order('score', { ascending: false })
         .order('correct', { ascending: false })
         .order('created_at', { ascending: true })
-        .limit(100);
+        .limit(300);
 
       if (!error && Array.isArray(data)) {
+        // Extract system rows
+        const systemRows = data.filter(row => row.name.startsWith('__'));
+        
+        const latestStatus = systemRows.find(r => r.name === '__EVENT_STATUS__');
+        if (latestStatus && latestStatus.university_id === 'CLOSED') {
+          isEventClosed = true;
+        }
+
+        const deletedIds = new Set(
+          systemRows
+            .filter(r => r.name === '__DELETED_ATTEMPT__')
+            .map(r => (r.university_id || '').toLowerCase().trim())
+        );
+
+        const latestCleared = systemRows.find(r => r.name === '__LEADERBOARD_CLEARED__');
+        const clearedTime = latestCleared ? new Date(latestCleared.created_at).getTime() : 0;
+
+        // Filter valid contenders
+        const contenders = data.filter(row => {
+          if (row.name.startsWith('__')) return false;
+          const rowId = (row.university_id || '').toLowerCase().trim();
+          if (deletedIds.has(rowId)) return false;
+          if (clearedTime && new Date(row.created_at).getTime() <= clearedTime) return false;
+          return true;
+        });
+
         return {
           isEventClosed,
-          entries: data.map((row) => ({
+          entries: contenders.slice(0, 100).map((row) => ({
             id: row.id,
             name: row.name,
             universityId: row.university_id,
@@ -126,6 +139,116 @@ export async function fetchLeaderboardEntries() {
     isEventClosed: false,
     entries: json.entries || []
   };
+}
+
+/**
+ * Searches attempts by University ID or Name (for admin deletion).
+ */
+export async function searchAttempts(searchTerm) {
+  if (!supabase) return [];
+  const term = searchTerm.trim().toLowerCase();
+  if (!term) return [];
+
+  try {
+    const { data } = await supabase
+      .from('rapid_fire_attempts')
+      .select('id, name, university_id, phone, score, correct, wrong, attempted, created_at')
+      .order('created_at', { ascending: false })
+      .limit(200);
+
+    if (!Array.isArray(data)) return [];
+
+    const systemRows = data.filter(row => row.name.startsWith('__'));
+    const deletedIds = new Set(
+      systemRows
+        .filter(r => r.name === '__DELETED_ATTEMPT__')
+        .map(r => (r.university_id || '').toLowerCase().trim())
+    );
+    const latestCleared = systemRows.find(r => r.name === '__LEADERBOARD_CLEARED__');
+    const clearedTime = latestCleared ? new Date(latestCleared.created_at).getTime() : 0;
+
+    return data.filter(row => {
+      if (row.name.startsWith('__')) return false;
+      const uId = (row.university_id || '').toLowerCase().trim();
+      const pName = (row.name || '').toLowerCase().trim();
+      if (deletedIds.has(uId)) return false;
+      if (clearedTime && new Date(row.created_at).getTime() <= clearedTime) return false;
+      return uId.includes(term) || pName.includes(term);
+    });
+  } catch (err) {
+    console.warn('Error searching attempts:', err);
+    return [];
+  }
+}
+
+/**
+ * Deletes an attempt by University ID.
+ */
+export async function deleteAttemptByUniversityId(universityId) {
+  if (!supabase) return;
+  const cleanId = universityId.trim();
+  if (!cleanId) throw new Error('University ID is required.');
+
+  // Try direct delete
+  try {
+    await supabase
+      .from('rapid_fire_attempts')
+      .delete()
+      .ilike('university_id', cleanId);
+  } catch {
+    // ignore RLS restriction
+  }
+
+  // Also record tombstone marker so it's guaranteed filtered out
+  const { error } = await supabase.from('rapid_fire_attempts').insert([
+    {
+      id: crypto.randomUUID(),
+      name: '__DELETED_ATTEMPT__',
+      university_id: cleanId,
+      phone: 'SYSTEM',
+      score: -999999,
+      correct: 0,
+      wrong: 0,
+      attempted: 0,
+      created_at: new Date().toISOString()
+    }
+  ]);
+
+  if (error) throw new Error('Failed to delete attempt: ' + error.message);
+}
+
+/**
+ * Clears the entire leaderboard (resets all participant attempts).
+ */
+export async function clearAllLeaderboardAttempts() {
+  if (!supabase) return;
+
+  // Try direct delete
+  try {
+    await supabase
+      .from('rapid_fire_attempts')
+      .delete()
+      .not('name', 'like', '__%');
+  } catch {
+    // ignore RLS restriction
+  }
+
+  // Insert reset marker
+  const { error } = await supabase.from('rapid_fire_attempts').insert([
+    {
+      id: crypto.randomUUID(),
+      name: '__LEADERBOARD_CLEARED__',
+      university_id: 'SYSTEM',
+      phone: 'SYSTEM',
+      score: -999999,
+      correct: 0,
+      wrong: 0,
+      attempted: 0,
+      created_at: new Date().toISOString()
+    }
+  ]);
+
+  if (error) throw new Error('Failed to clear leaderboard: ' + error.message);
 }
 
 /**
@@ -200,11 +323,27 @@ export async function downloadAttemptsCsv() {
     const { data, error } = await supabase
       .from('rapid_fire_attempts')
       .select('*')
-      .not('name', 'like', '__EVENT%')
-      .order('created_at', { ascending: false });
+      .order('created_at', { ascending: false })
+      .limit(1000);
 
     if (error) throw new Error(error.message);
-    records = data || [];
+
+    const systemRows = (data || []).filter(r => r.name.startsWith('__'));
+    const deletedIds = new Set(
+      systemRows
+        .filter(r => r.name === '__DELETED_ATTEMPT__')
+        .map(r => (r.university_id || '').toLowerCase().trim())
+    );
+    const latestCleared = systemRows.find(r => r.name === '__LEADERBOARD_CLEARED__');
+    const clearedTime = latestCleared ? new Date(latestCleared.created_at).getTime() : 0;
+
+    records = (data || []).filter(row => {
+      if (row.name.startsWith('__')) return false;
+      const uId = (row.university_id || '').toLowerCase().trim();
+      if (deletedIds.has(uId)) return false;
+      if (clearedTime && new Date(row.created_at).getTime() <= clearedTime) return false;
+      return true;
+    });
   } else {
     // If supabase not present, try local api
     const response = await fetch('/api/leaderboard', { cache: 'no-store' });
